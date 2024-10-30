@@ -1,0 +1,165 @@
+.mpio-accordion {
+	background-color: #ffffff;
+	width: 100%;
+}
+
+.mpio-logo{
+	background-image: url("../images/logo-dark.png");
+	background-position: 90% 0%; 
+	background-repeat: no-repeat;
+    background-size: 300px 86px;
+}
+
+.mpio-menu-item{
+	float:left;
+}
+.mpio-menu-delete{
+	float:right;
+	color:#a00;
+	font-size: 13px;
+}
+.mpio-menu-delete a:link,
+.mpio-menu-delete a:visited{
+    color:#a00;
+    text-decoration: underline;
+}
+.mpio-metabox-tabs{
+	background:#fff;
+	border: 0px;
+}
+.mpio-category-tabs{
+	background:#fff;
+	border: 0px;
+	border-bottom: 1px solid #ddd;
+}
+.mpio-category-tabs a:link{
+	color: #000;
+}
+
+
+.mpio-options-group {
+	  overflow: auto;
+	  height: auto;
+	  display: auto; 
+}
+
+.mpio-field-group {
+	margin: 4px 0 0;
+    clear: both;
+    float: none;
+    width: auto;
+    vertical-align: top;
+}
+
+.mpio-accordion h3 {
+  padding: 5px 30px;
+  background-color: #f5f5f5;
+  font-size: .9rem;
+  color: #23282d; 
+}
+.mpio-manage-menus {
+	margin-bottom: 25px;
+}
+.wp-picker-container button{
+	width: 30px;
+	height: 30px;
+	color: transparent;
+	float: left;
+}
+.wp-picker-container span{
+	width: 0%;
+	color: transparent;
+}
+
+
+.ui-icon{
+    background-image: url(../images/ui-icons_555555_256x240.png) !important;
+}
+
+
+.mpio-column-options {
+    float: left;
+    width: 30%;
+}
+
+.mpio-column-phone {
+    float: left;
+    width: 60%;
+}
+
+.mpio-field-group label {
+	float: left;
+    width: 60px;
+    margin: 0 4px 0 0;
+    text-align: right;
+}
+
+.mpio-field-group table {
+	margin: 0 auto;
+	border: 0px;
+}
+
+.mpio-field-group td {
+	padding: 5px;
+	width: 50%;
+}
+
+.mpio-right {
+	text-align: right;
+}
+
+/* Clear floats after the columns */
+.mpio-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.app-menu table{
+	height: 50px;
+}
+
+.app-menu td {
+	vertical-align: top;
+	height: 50px;
+	width:300px;
+}
+
+
+.panel{
+    height: 200px;
+    overflow: auto;
+}
+
+#menu-to-edit {
+    border: 1px solid #eee;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+    width: 100%
+}
+
+
+#menu-to-edit li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.4em;
+}
+
+.mpio-tabs a, .mpio-tabs a:link, .mpio-tabs a:visited{
+	color: #454545 !important;
+	text-decoration: none !important;
+}
+
+.mpio-metabox-nav-tab{
+    margin-bottom: -9px;
+}
+
+.mpio-metabox-nav-tab .nav-tab-active{
+    color: #fff;
+}
+
